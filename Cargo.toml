@@ -1,0 +1,14 @@
+[package]
+name = "daily-text"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"]}
+chrono = "0.4"
+soup = "0.5.1"
+directories-next = "2.0.0"
+clap = { version = "3.1.18", features = ["derive"]}
+configparser = "3.0.0"
